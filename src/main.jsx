@@ -12,13 +12,14 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Greeting />
+    <App />
+    {/* <Greeting />
 
     <TrashTalk />
 
     <TestCircle />
     <AppProp />
 
-    <Person />
+    <Person /> */}
   </StrictMode>
 );
